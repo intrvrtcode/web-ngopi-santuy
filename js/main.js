@@ -13,4 +13,4 @@ document.addEventListener('click', (e) => {
   }
 })
 
-console.log(${{ secrets.TEST }})
+console.log('secret: ', ${{ secrets.TEST }})
