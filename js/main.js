@@ -12,3 +12,5 @@ document.addEventListener('click', (e) => {
     navbarNav.classList.remove('active');
   }
 })
+
+console.log(${{ secrets.TEST }})
